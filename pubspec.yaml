@@ -1,0 +1,131 @@
+name: my_ecommerce
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  # location
+  geolocator: ^9.0.1
+  geocoding: ^2.0.5
+  get:
+  intl:
+  http:
+  jiffy:
+  cached_network_image:
+  show_up_animation:
+  auto_animated:
+  image_picker:
+  google_maps_flutter:
+  flutter_polyline_points:
+  firebase_messaging:
+  firebase_core:
+  flutter_local_notifications: ^9.5.3+1
+  cloud_firestore:
+  sqflite:
+  shared_preferences:
+  path:
+  qr_flutter:
+  scan:
+  url_launcher:
+  grouped_list:
+  dropdown_search:
+  badges:
+  # Icon
+  flutter_otp_text_field:
+  font_awesome_flutter: ^10.1.0
+  fluttericon: ^2.0.0
+  dartz: ^0.10.1
+  # Google Auth
+  google_sign_in: ^5.3.1
+  device_preview: ^0.7.5
+  responsive_builder: ^0.4.2
+  image_pickers: ^2.0.0+2
+  flutter_svg: ^0.23.0+1
+  lottie:
+  open_street_map_search_and_pick: ^0.1.0
+  flutter_ringtone_player:
+  rating_dialog:
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+
+flutter:
+  uses-material-design: true
+  assets:
+     - assets/images/
+     - assets/images/avatar.png
+     - assets/lottie/
+  fonts:
+     - family: Cairo
+       fonts:
+         - asset: assets/fonts/cairo/Cairo-ExtraLight.ttf
+           weight: 200
+         - asset: assets/fonts/cairo/Cairo-Light.ttf
+           weight: 300
+         - asset: assets/fonts/cairo/Cairo-Regular.ttf
+           weight: 400
+         - asset: assets/fonts/cairo/Cairo-Medium.ttf
+           weight: 500
+         - asset: assets/fonts/cairo/Cairo-SemiBold.ttf
+           weight: 600
+         - asset: assets/fonts/cairo/Cairo-Bold.ttf
+           weight: 700
+         - asset: assets/fonts/Cairo/Cairo-ExtraBold.ttf
+           weight: 800
+         - asset: assets/fonts/Cairo/Cairo-Black.ttf
+           weight: 900
+     - family: HelveticaNeueLT
+       fonts:
+         - asset: assets/fonts/HelveticaNeueLT.otf
+           weight: 100
+         - asset: assets/fonts/HelveticaNeueLT.otf
+           weight: 200
+         - asset: assets/fonts/HelveticaNeueLT.otf
+           weight: 300
+         - asset: assets/fonts/HelveticaNeueLT.otf
+           weight: 400
+         - asset: assets/fonts/HelveticaNeueLT.otf
+           weight: 500
+         - asset: assets/fonts/HelveticaNeueLTB.otf
+           weight: 600
+         - asset: assets/fonts/HelveticaNeueLTB.otf
+           weight: 700
+         - asset: assets/fonts/HelveticaNeueLTB.otf
+           weight: 800
+         - asset: assets/fonts/HelveticaNeueLTB.otf
+           weight: 900
+
+     - family: Almarai
+       fonts:
+         - asset: assets/fonts/Almarai/Almarai-Light.ttf
+           weight: 100
+         - asset: assets/fonts/Almarai/Almarai-Light.ttf
+           weight: 200
+         - asset: assets/fonts/Almarai/Almarai-Light.ttf
+           weight: 300
+         - asset: assets/fonts/Almarai/Almarai-Regular.ttf
+           weight: 400
+         - asset: assets/fonts/Almarai/Almarai-Regular.ttf
+           weight: 500
+         - asset: assets/fonts/Almarai/Almarai-Regular.ttf
+           weight: 600
+         - asset: assets/fonts/Almarai/Almarai-Bold.ttf
+           weight: 700
+         - asset: assets/fonts/Almarai/Almarai-ExtraBold.ttf
+           weight: 800
+         - asset: assets/fonts/Almarai/Almarai-ExtraBold.ttf
+           weight: 900
